@@ -1,12 +1,51 @@
-# React + Vite
+# GIT commands
+## Srart a new reposotory (repo)
+```bash
+git init
+```
+## Register your name at local GIT
+```bash
+git config --global user.name your_name
+```
+## Register your email at local GIT
+```bash
+git config --global user.email your_email
+```
+## Add a file to the tracking system
+```bash
+git add file_path
+```
+***Example: git add src/App.jsx***
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Add all files to the tracking system
+```bash
+git add .
+```
+## Save current changes as a commit
+```bash
+git commit -m "YOUR MESSAGE"
+```
+## Check the repo status
+```bash
+git status
+```
+## Check all commits
+```bash
+git log
+```
+***For long log***
+- To see next logs (space)
+- To exit the log (q)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## To go to previous commit
+```bash
+git checkout COMMIT_ID
+```
+## to undo all changes made to a file, and return to last commit
+```bash
+git restore file_path
+```
+## to undo all changes made to a repo, and return to last commit
+```bash
+git restore .
+```
