@@ -9,7 +9,8 @@ export default function App() {
 
   return (
     <div>
-      <h2>App Modify 1</h2>
+      <h2>App Modify 2</h2>
+      <p>Lorem, ipsum dolor.</p>
     </div>
   )
 }
