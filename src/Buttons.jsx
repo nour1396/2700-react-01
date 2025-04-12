@@ -26,12 +26,12 @@ export function LinkBtn() {
 
 export function CloseBtn() {
     return (
-        <span>❌</span>
+        <span>(❌)</span>
     )
 }
 
 export function MenuBtn() {
     return (
-        <span>☰</span>
+        <span>[☰]</span>
     )
 }
