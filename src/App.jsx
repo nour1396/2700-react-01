@@ -2,7 +2,7 @@ import Header from './Header'
 import Button, { LinkBtn, GroupBtn } from './Buttons'
 
 
-import { GroupBtn as RbsGbtn } from './React-Bootstap/Button'
+// import { GroupBtn as RbsGbtn } from './React-Bootstap/Button'
 import Alert from './Alert'
 
 export default function App() {
@@ -15,7 +15,9 @@ export default function App() {
       <Alert color='darkgreen' bgColor='lightgreen'>
         <h3>Success Alert</h3>
         <p>Saved Successfully!!!. </p>
+        
       </Alert>
+      <h1 className='bg-sky-700'>Trying git clone and push edits </h1>
     </div>
   )
 }
